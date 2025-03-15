@@ -34,7 +34,7 @@ function gameLoop() {
         drawFood();
         updateScore();
         gameLoop();
-    }, 100);  // Increased the delay from 100ms to 200ms (or try 150ms)
+    }, 50);  // Increased the delay from 100ms to 200ms (or try 150ms)
 }
 
 
